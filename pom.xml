@@ -18,7 +18,7 @@
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
-            <name>Vaadin Pre-releases</name>
+            <name>vaadin-prereleases</name>
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
         </repository>
         <!-- Essential Vaadin artifacts are in maven central, but maven.vaadin.com 
@@ -29,8 +29,8 @@
         </repository>
 
         <repository>
-            <id>vaadin-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+            <id>addressbook-snapshots</id>
+            <url>http://ec2-52-200-41-232.compute-1.amazonaws.com:8081/nexus/content/repositories/addressbook-snapshots/</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -42,13 +42,13 @@
 
     <pluginRepositories>
         <pluginRepository>
-            <id>vaadin-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+            <id>addressbook-releases</id>
+            <url>http://ec2-52-200-41-232.compute-1.amazonaws.com:8081/nexus/content/repositories/addressbook-releases/</url>
             <releases>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </releases>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>False</enabled>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
